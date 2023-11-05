@@ -20,7 +20,7 @@
             Connection connection = DriverManager.getConnection(
                   "jdbc:mariadb://192.168.200.4:3306/prueba?useSSL=false", 
                   "root", 
-                  "secreto");
+                  "hola");
             Statement stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery("Select * from persona");
             while (rs.next()) {
