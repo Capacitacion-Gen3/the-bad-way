@@ -18,7 +18,7 @@
           <%
             Class.forName("org.mariadb.jdbc.Driver");
             Connection connection = DriverManager.getConnection(
-                  "jdbc:mariadb://192.168.200.4:3306/prueba?useSSL=false", 
+                  "jdbc:mariadb://localhost:3306/prueba?useSSL=false", 
                   "root", 
                   "hola");
             Statement stmt = connection.createStatement();
