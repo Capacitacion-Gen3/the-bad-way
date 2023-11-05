@@ -10,7 +10,7 @@ In order to test this example of "bad things" to be done when making Software, y
 4. Start out dockerized DB
 5. Restore the script for that DB
 6. Change the IP (172.31.92.214) for the one in your host machine in fle: webbapp/lista.jsp
-7. Start out dockerized tomcat
+7. Start our dockerized tomcat
 8. Test it with: http://your.ip.or.localhost/webapp/list.jsp
 
 For his to work, it needs:
