@@ -25,4 +25,4 @@ mariadb
 echo "Servidor de base de datos mysql operacional"
 echo "To see what a nice thing we just have made, just run this:"
 echo "docker exec -it db bash"
-echo "mysql -u root -phola"
+echo "mariadb -u root -phola"
