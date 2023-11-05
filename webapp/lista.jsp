@@ -34,6 +34,7 @@
                     <td><%= empId %></td>
                     <td><%= firstName %></td>
                     <td><%= lastName %></td>
+                    <td><%= secondName ></td>
                     <td><%= age %></td>
                 </tr>
               <%
