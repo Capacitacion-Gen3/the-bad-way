@@ -14,6 +14,6 @@ In order to test this example of "bad things" to be done when making Software, y
 8. Test it with: http://your.ip.or.localhost/webapp/list.jsp
 
 For his to work, it needs:
-1. A machine with docker and GIT
+1. A machine with docker and GIT (this works better if the host machine is new without any other servcie using reserved ports and docker names)
 
 That's it !!!!
