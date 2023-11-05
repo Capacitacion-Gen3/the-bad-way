@@ -11,10 +11,10 @@ CREATE TABLE persona (
    primary key(id)
 );
 
-INSERT INTO persona VALUES(1,'carlos','salinas','x',25);
-INSERT INTO persona VALUES(2,'ernesto','zedillo','x',36);
-INSERT INTO persona VALUES(3,'vicente','fox','x',19);
-INSERT INTO persona VALUES(4,'felipe','caldeon','x',52);
+INSERT INTO persona VALUES(1,'carlos','salinas','rosas',25);
+INSERT INTO persona VALUES(2,'ernesto','zedillo','lópez',36);
+INSERT INTO persona VALUES(3,'vicente','fox','pérez',19);
+INSERT INTO persona VALUES(4,'felipe','caldeon','zedillo',52);
 
 SELECT * FROM persona;
 
