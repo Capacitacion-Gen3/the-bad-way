@@ -1,5 +1,7 @@
 # The Bad Way !!!!
 
+This repo contains a simple tomcat-9 project, showing a JSP made full of bad practices. At least, 14 has been identified. This is just one way to show (among many other ways) how you can write code, but you can NOT write Software.
+
 In order to test this example of "bad things" to be done when making Software, you should:
 
 1. Create a directory for this experiment
