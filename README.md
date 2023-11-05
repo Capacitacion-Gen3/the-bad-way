@@ -7,7 +7,7 @@ In order to test this example of "bad things" to be done when making Software, y
 1. Create a directory for this experiment
 2. Clon this repo in that directory
 3. Udate the sh files for them to reflect the directory of this experiment
-4. Start out dockerized DB
+4. Start our dockerized DB
 5. Restore the script for that DB
 6. Change the IP (172.31.92.214) for the one in your host machine in fle: webbapp/lista.jsp
 7. Start our dockerized tomcat
