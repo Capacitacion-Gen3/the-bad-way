@@ -18,16 +18,17 @@
           <%
             Class.forName("org.mariadb.jdbc.Driver");
             Connection connection = DriverManager.getConnection(
-                  "jdbc:mariadb://192.168.200.4:3306/prueba?useSSL=false", 
+                  "jdbc:mariadb://172.31.92.214:3306/prueba?useSSL=false", 
                   "root", 
                   "hola");
             Statement stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery("Select * from persona");
             while (rs.next()) {
-              Integer empId    = rs.getInt(1);
-              String firstName = rs.getString(2);
-              String lastName  = rs.getString(3);
-              Integer age      = rs.getInt(4);
+              Integer empId     = rs.getInt(1);
+              String firstName  = rs.getString(2);
+              String lastName   = rs.getString(3);
+              String secondName = rs.getString(4);
+              Integer age       = rs.getInt(5);
               %>
                 <tr>
                     <td><%= empId %></td>
