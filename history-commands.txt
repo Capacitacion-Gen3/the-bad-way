@@ -1,0 +1,22 @@
+sudo apt update
+sudo apt install docker.io
+sudo gpasswd -a ubuntu docker
+exit
+docker info
+
+mkdir experiment
+cd experiment/
+git clone https://github.com/Capacitacion-Gen3/the-bad-way.git
+cd the-bad-way
+pwd
+
+nano run-db.sh
+nano run-tomcat.sh
+./run-db.sh
+cat scripts/db.sql
+docker exec -it db bash
+
+ifconfig
+nano webapp/lista.jsp
+./run-tomcat.sh
+curl http://localhost/webapp/lista.jsp
