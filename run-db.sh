@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # La siguiente ruta ya DEBE existir en tu máquina:
-RUTA=/Users/garellano/xyz
+RUTA=/home/ubuntu/experiment/the-bad-way
 
 mkdir $RUTA/db
 mkdir $RUTA/scripts
@@ -25,4 +25,4 @@ mariadb
 echo "Servidor de base de datos mysql operacional"
 echo "To see what a nice thing we just have made, just run this:"
 echo "docker exec -it db bash"
-echo "mariadb -u root -phola"
+echo "mysql -u root -phola"
