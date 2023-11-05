@@ -8,4 +8,4 @@ In order to test this example of "bad things" to be done when making Software, y
 4. Start out dockerized DB
 5. Restore the script for that DB
 6. Start out dockerized tomcat
-7. testit with; http://ip:8080//list.jsp
+7. Test it with: http://your.ip.or.localhost//list.jsp
