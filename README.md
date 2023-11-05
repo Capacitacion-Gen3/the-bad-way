@@ -11,7 +11,7 @@ In order to test this example of "bad things" to be done when making Software, y
 5. Restore the script for that DB
 6. Change the IP (192.168.200.4) for the one in your host machine in fle: webbapp/lista.jsp
 7. Start out dockerized tomcat
-8. Test it with: http://your.ip.or.localhost//list.jsp
+8. Test it with: http://your.ip.or.localhost/webapp/list.jsp
 
 For his to work, it needs:
 1. A machine with docker and GIT
