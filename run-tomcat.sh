@@ -5,7 +5,7 @@ docker stop tomcat-9
 docker rm tomcat-9
 
 # Cambiar sólo esta ruta:
-RUTA=/Users/garellano/xyz
+RUTA=/home/ubuntu/experiment/the-bad-way
 
 echo "Starting new container..."
 docker run -d \
