@@ -13,6 +13,7 @@
             <th>ID</th>
             <th>First</th>
             <th>Last</th>
+            <th>Second</th>
             <th>Age</th>
           </tr>
           <%
