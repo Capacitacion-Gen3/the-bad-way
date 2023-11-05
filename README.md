@@ -13,7 +13,6 @@ In order to test this example of "bad things" to be done when making Software, y
 7. Test it with: http://your.ip.or.localhost//list.jsp
 
 For his to work, it needs:
-1. A machine with docker
-2. Git installer in this machie
+1. A machine with docker and GIT
 
 That's it !!!!
