@@ -19,9 +19,9 @@
           <%
             Class.forName("org.mariadb.jdbc.Driver");
             Connection connection = DriverManager.getConnection(
-                  "jdbc:mariadb://172.31.92.214:3306/prueba?useSSL=false", 
+                  "jdbc:mariadb://172.31.92.110:3306/prueba?useSSL=false", 
                   "root", 
-                  "hola");
+                  "Gustavo2023_");
             Statement stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery("Select * from persona");
             while (rs.next()) {

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # La siguiente ruta ya DEBE existir en tu máquina:
-RUTA=/home/ubuntu/experiment/the-bad-way
+RUTA=/home/ubuntu/pruebita/the-bad-way
 
 mkdir $RUTA/db
 mkdir $RUTA/scripts
@@ -18,7 +18,7 @@ docker run -d \
 -p 3306:3306 \
 -v $RUTA/db:/var/lib/mysql \
 -v $RUTA/scripts:/scripts \
--e MYSQL_ROOT_PASSWORD=hola \
+-e MYSQL_ROOT_PASSWORD=Gustavo2023_ \
 -e TZ=Mexico/Mexico_City \
 mariadb
 
