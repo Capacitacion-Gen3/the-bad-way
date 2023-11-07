@@ -1,5 +1,7 @@
 DROP DATABASE IF EXISTS prueba;
 CREATE DATABASE prueba;
+grant all privileges on prueba.* to 'garellano'@'%' identified by 'Arellano2023_' with grant option;
+
 USE prueba;
 
 CREATE TABLE persona (
