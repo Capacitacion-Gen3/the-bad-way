@@ -19,3 +19,4 @@ For his to work, it needs:
 That's it :)
 
 UNO
+DOS
